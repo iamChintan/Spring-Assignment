@@ -7,7 +7,7 @@ public class DriverClass {
 	public static void main(String[] args) {
 		 
 		ClassPathXmlApplicationContext context = 
-				new ClassPathXmlApplicationContext("ApplicationContext.xml");
+				new ClassPathXmlApplicationContext("appContext.xml");
 		
 		JavaLanguage language = context.getBean("Framework", JavaLanguage.class);
 		
