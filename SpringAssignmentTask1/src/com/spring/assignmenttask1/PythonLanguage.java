@@ -1,9 +1,5 @@
 package com.spring.assignmenttask1;
 
-public interface JavaLanguage {
-	
-	public abstract String learningJava();
-	
+public interface PythonLanguage {
 	public abstract String learningPython();
-
 }

@@ -7,6 +7,11 @@ http://www.springframework.org/schema/beans/spring-beans.xsd">
 
 <bean id="Framework"
 class="com.spring.assignmenttask1.JavaWorld">
+<constructor-arg ref="python"/>
+</bean>
+
+<bean id="python"
+class="com.spring.assignmenttask1.PythonWorld">
 </bean>
 
 </beans>
