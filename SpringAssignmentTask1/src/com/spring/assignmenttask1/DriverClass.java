@@ -11,7 +11,7 @@ public class DriverClass {
 		
 		JavaLanguage language = context.getBean("Framework", JavaLanguage.class);
 		
-		language.learningJava();
+		System.out.println(language.learningJava()); 
 		
 		context.close();
 
